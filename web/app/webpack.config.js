@@ -43,5 +43,11 @@ module.exports = {
         ]
       }
     ]
+  },
+  node: {
+    fs: 'empty', // https://github.com/webpack-contrib/css-loader/issues/447
+    net: 'empty',
+    tls: 'empty',
+    child_process: 'empty'
   }
 }

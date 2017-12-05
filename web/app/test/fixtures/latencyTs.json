@@ -1,0 +1,247 @@
+{
+  "metrics": [
+    {
+      "name": "LATENCY",
+      "metadata": {
+        "targetPod": "example/hello-244676396-7q778",
+        "targetDeploy": "example/hello",
+        "sourcePod": "",
+        "sourceDeploy": "",
+        "component": ""
+      },
+      "datapoints": [
+        {
+          "value": {
+            "histogram": {
+              "values": [
+                {
+                  "label": "P50",
+                  "value": "7"
+                },
+                {
+                  "label": "P95",
+                  "value": "9"
+                },
+                {
+                  "label": "P99",
+                  "value": "9"
+                }
+              ]
+            }
+          },
+          "timestampMs": "1512515976157"
+        },
+        {
+          "value": {
+            "histogram": {
+              "values": [
+                {
+                  "label": "P50",
+                  "value": "597"
+                },
+                {
+                  "label": "P95",
+                  "value": "959"
+                },
+                {
+                  "label": "P99",
+                  "value": "991"
+                }
+              ]
+            }
+          },
+          "timestampMs": "1512515986157"
+        },
+        {
+          "value": {
+            "histogram": {
+              "values": [
+                {
+                  "label": "P50",
+                  "value": "749"
+                },
+                {
+                  "label": "P95",
+                  "value": "974"
+                },
+                {
+                  "label": "P99",
+                  "value": "994"
+                }
+              ]
+            }
+          },
+          "timestampMs": "1512515996157"
+        },
+        {
+          "value": {
+            "histogram": {
+              "values": [
+                {
+                  "label": "P50",
+                  "value": "750"
+                },
+                {
+                  "label": "P95",
+                  "value": "975"
+                },
+                {
+                  "label": "P99",
+                  "value": "995"
+                }
+              ]
+            }
+          },
+          "timestampMs": "1512516006157"
+        },
+        {
+          "value": {
+            "histogram": {
+              "values": [
+                {
+                  "label": "P50",
+                  "value": "750"
+                },
+                {
+                  "label": "P95",
+                  "value": "975"
+                },
+                {
+                  "label": "P99",
+                  "value": "995"
+                }
+              ]
+            }
+          },
+          "timestampMs": "1512516016157"
+        },
+        {
+          "value": {
+            "histogram": {
+              "values": [
+                {
+                  "label": "P50",
+                  "value": "749"
+                },
+                {
+                  "label": "P95",
+                  "value": "974"
+                },
+                {
+                  "label": "P99",
+                  "value": "994"
+                }
+              ]
+            }
+          },
+          "timestampMs": "1512516026157"
+        },
+        {
+          "value": {
+            "histogram": {
+              "values": [
+                {
+                  "label": "P50",
+                  "value": "750"
+                },
+                {
+                  "label": "P95",
+                  "value": "975"
+                },
+                {
+                  "label": "P99",
+                  "value": "995"
+                }
+              ]
+            }
+          },
+          "timestampMs": "1512516036157"
+        },
+        {
+          "value": {
+            "histogram": {
+              "values": [
+                {
+                  "label": "P50",
+                  "value": "749"
+                },
+                {
+                  "label": "P95",
+                  "value": "974"
+                },
+                {
+                  "label": "P99",
+                  "value": "994"
+                }
+              ]
+            }
+          },
+          "timestampMs": "1512516046157"
+        },
+        {
+          "value": {
+            "histogram": {
+              "values": [
+                {
+                  "label": "P50",
+                  "value": "750"
+                },
+                {
+                  "label": "P95",
+                  "value": "975"
+                },
+                {
+                  "label": "P99",
+                  "value": "995"
+                }
+              ]
+            }
+          },
+          "timestampMs": "1512516056157"
+        },
+        {
+          "value": {
+            "histogram": {
+              "values": [
+                {
+                  "label": "P50",
+                  "value": "750"
+                },
+                {
+                  "label": "P95",
+                  "value": "975"
+                },
+                {
+                  "label": "P99",
+                  "value": "995"
+                }
+              ]
+            }
+          },
+          "timestampMs": "1512516066157"
+        },
+        {
+          "value": {
+            "histogram": {
+              "values": [
+                {
+                  "label": "P50",
+                  "value": "750"
+                },
+                {
+                  "label": "P95",
+                  "value": "975"
+                },
+                {
+                  "label": "P99",
+                  "value": "995"
+                }
+              ]
+            }
+          },
+          "timestampMs": "1512516076157"
+        }
+      ]
+    }
+  ]
+}

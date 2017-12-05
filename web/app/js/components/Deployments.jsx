@@ -66,7 +66,8 @@ export default class Deployments extends React.Component {
     let timeseriesRequest = fetch(timeseriesPath).then(r => r.json());
     let podRequest = fetch(podPath).then(r => r.json());
 
-    Promise.all([rollupRequest, timeseriesRequest, podRequest])
+    // expose serverPromise for testing
+    this.serverPromise = Promise.all([rollupRequest, timeseriesRequest, podRequest])
       .then(([metrics, ts, p]) => {
 
         let po = this.processDeploys(p.pods);
@@ -118,7 +119,6 @@ export default class Deployments extends React.Component {
     );
   }
 
-
   render() {
     if (!this.state.loaded) {
       return <ConduitSpinner />;
@@ -126,12 +126,12 @@ export default class Deployments extends React.Component {
       <div className="page-content">
         <div className="page-header">
           <h1>All deployments</h1>
-          {_.isEmpty(this.state.metrics) ?
-            <CallToAction numDeployments={_.size(this.state.metrics)} /> :
-            null
-          }
         </div>
-        {!_.isEmpty(this.state.metrics) ? this.renderPageContents() : null}
+        {
+          _.isEmpty(this.state.metrics) ?
+            <CallToAction numDeployments={_.size(this.state.metrics)} /> :
+            this.renderPageContents()
+        }
       </div>
     );
   }
